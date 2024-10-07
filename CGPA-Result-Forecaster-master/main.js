@@ -99,10 +99,10 @@ function continueCalculation() {
     totalUnit.innerHTML = 0;
     gpaValue.innerHTML = 0;
 
-    if (semester.innerHTML === "1st") {
-      semester.innerHTML = "2nd";
+    if (semester.innerHTML === "Odd") {
+      semester.innerHTML = "Even";
     } else {
-      semester.innerHTML = "1st";
+      semester.innerHTML = "Odd";
       levelCount++;
     }
 
